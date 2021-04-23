@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="gAssembly_1" Type="assembly">
+    <Group ID="Tracks">
+      <Property ID="TrackSeparation" Value="0.030" />
+      <Group ID="Track[1]">
+        <Group ID="Segments">
+          <Property ID="SegmentRef[1]" Value="::Seg_A_1" />
+          <Property ID="SegmentRef[2]" Value="::Seg_A_2" />
+          <Property ID="SegmentRef[3]" Value="::Seg_A_3" />
+          <Property ID="SegmentRef[4]" Value="::Seg_A_4" />
+          <Property ID="SegmentRef[5]" Value="::Seg_A_5" />
+          <Property ID="SegmentRef[6]" Value="::Seg_A_6" />
+          <Property ID="SegmentRef[7]" Value="::Seg_A_7" />
+          <Property ID="SegmentRef[8]" Value="::Seg_A_8" />
+          <Property ID="SegmentRef[9]" Value="::Seg_A_9" />
+          <Property ID="SegmentRef[10]" Value="::Seg_A_10" />
+          <Property ID="SegmentRef[11]" Value="::Seg_A_11" />
+          <Property ID="SegmentRef[12]" Value="::Seg_A_12" />
+          <Property ID="SegmentRef[13]" Value="::Seg_A_13" />
+          <Property ID="SegmentRef[14]" Value="::Seg_A_14" />
+        </Group>
+        <Selector ID="Position" Value="Absolute">
+          <Property ID="SegmentRef" Value="" />
+          <Property ID="SegmentCountDirection" Value="RightToLeft" />
+          <Group ID="Translation">
+            <Property ID="X" Value="0.0" />
+            <Property ID="Y" Value="0.0" />
+            <Property ID="Z" Value="0.0" />
+          </Group>
+          <Group ID="Orientation">
+            <Property ID="Angle1" Value="0.0" />
+            <Property ID="Angle2" Value="0.0" />
+            <Property ID="Angle3" Value="180" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="Track[2]">
+        <Group ID="Segments">
+          <Property ID="SegmentRef[1]" Value="::Seg_B_15" />
+          <Property ID="SegmentRef[2]" Value="::Seg_B_16" />
+          <Property ID="SegmentRef[3]" Value="::Seg_B_17" />
+          <Property ID="SegmentRef[4]" Value="::Seg_B_18" />
+          <Property ID="SegmentRef[5]" Value="::Seg_B_19" />
+          <Property ID="SegmentRef[6]" Value="::Seg_B_20" />
+          <Property ID="SegmentRef[7]" Value="::Seg_B_21" />
+          <Property ID="SegmentRef[8]" Value="::Seg_B_22" />
+          <Property ID="SegmentRef[9]" Value="::Seg_B_23" />
+          <Property ID="SegmentRef[10]" Value="::Seg_B_24" />
+          <Property ID="SegmentRef[11]" Value="::Seg_B_25" />
+          <Property ID="SegmentRef[12]" Value="::Seg_B_26" />
+          <Property ID="SegmentRef[13]" Value="::Seg_B_27" />
+          <Property ID="SegmentRef[14]" Value="::Seg_B_28" />
+        </Group>
+        <Selector ID="Position" Value="RelativeToOne">
+          <Group ID="TrackSegmentPosition">
+            <Property ID="SegmentRef" Value="::Seg_B_15" />
+          </Group>
+          <Group ID="Base">
+            <Property ID="SegmentRef" Value="::Seg_A_1" />
+          </Group>
+        </Selector>
+      </Group>
+    </Group>
+    <Group ID="CommonSegmentSettings">
+      <Property ID="SegmentSimulationOnPLC" Value="Off" />
+      <Selector ID="StopReaction" Value="InductionHalt" />
+      <Selector ID="SpeedFilter" Value="NotUsed" />
+      <Group ID="ControllerParameters">
+        <Group ID="DefaultParameter">
+          <Group ID="Controller">
+            <Group ID="Position">
+              <Property ID="ProportionalGain" Value="200" />
+            </Group>
+            <Group ID="Speed">
+              <Property ID="ProportionalGain" Value="80" />
+              <Property ID="IntegrationTime" Value="0.0" />
+            </Group>
+            <Group ID="FeedForward">
+              <Property ID="TotalMass" Value="1" />
+              <Property ID="ForcePositive" Value="0.0" />
+              <Property ID="ForceNegative" Value="0.0" />
+              <Property ID="SpeedForceFactor" Value="0.0" />
+              <Property ID="ForceLoad" Value="0.0" />
+            </Group>
+          </Group>
+          <Group ID="MovementErrorLimits">
+            <Property ID="PositionError" Value="0.001" />
+            <Property ID="VelocityError" Value="0.05" />
+          </Group>
+        </Group>
+        <Selector ID="AdditionalParameterSets" Value="NotUsed" />
+      </Group>
+      <Property ID="ShuttleIdentificationTime" Value="0" />
+    </Group>
+    <Group ID="Shuttles">
+      <Property ID="MaxShuttleCount" Value="10" />
+      <Group ID="DistanceReserve">
+        <Property ID="Collision" Value="0.002" />
+        <Property ID="ErrorStop" Value="0.006" />
+      </Group>
+      <Group ID="ShuttleStereotypes">
+        <Property ID="ShuttleStRef[1]" Value="ShuttleStereotype_1" />
+      </Group>
+      <Group ID="MagnetPlateConfigurations">
+        <Selector ID="ShuttleType[1]" Value="8F1SA.100.xxxxxx-x" />
+      </Group>
+      <Group ID="CollisionAvoidance">
+        <Selector ID="Strategy" Value="Constant" />
+        <Group ID="MaximumModelDimensions">
+          <Group ID="Length">
+            <Property ID="ExtentToFront" Value="0.04" />
+            <Property ID="ExtentToBack" Value="0.04" />
+          </Group>
+          <Group ID="Width">
+            <Property ID="Width" Value="0.040" />
+          </Group>
+        </Group>
+      </Group>
+    </Group>
+    <Group ID="Visualization">
+      <Property ID="MonitoringPv" Value="::gShuttleMon" />
+      <Property ID="ProcessingTaskClass" Value="1" />
+    </Group>
+  </Element>
+</Configuration>

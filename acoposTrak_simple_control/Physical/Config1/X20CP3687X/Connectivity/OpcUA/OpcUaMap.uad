@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="7" ArVersion="C4.90">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables Name="Global Variables">
+        <Variable Name="gShuttleMon">
+          <Variable Name="Shuttle" EnableArrayElements="True" />
+        </Variable>
+      </GlobalVariables>
+      <Task Name="tCTRL_m">
+        <Variable Name="dt_service">
+          <Variable Name="camera" EnableArrayElements="True" />
+          <Variable Name="index" />
+        </Variable>
+        <Variable Name="gTrakAsm">
+          <Variable Name="control">
+            <Variable Name="power" />
+            <Variable Name="shuttle_start" />
+            <Variable Name="shuttle_stop" />
+            <Variable Name="default_shuttle_parameters" />
+            <Variable Name="reset_evn" />
+            <Variable Name="animation_mode" />
+          </Variable>
+          <Variable Name="shuttle">
+            <Variable Name="num_of_shuttles" />
+            <Variable Name="shuttle_offset" />
+            <Variable Name="parameter" EnableArrayElements="True" />
+            <Variable Name="sector_legth" />
+            <Variable Name="move_type" />
+            <Variable Name="initial_sector" />
+            <Variable Name="num_of_shuttles_mv" />
+            <Variable Name="shuttle_velocity" />
+          </Variable>
+          <Variable Name="status">
+            <Variable Name="power_on" />
+            <Variable Name="shuttles_exist" />
+            <Variable Name="shuttle_index" />
+            <Variable Name="active" />
+            <Variable Name="is_homed" />
+          </Variable>
+          <Variable Name="data_collection" EnableArrayElements="True" />
+          <Variable Name="shuttle_axis" EnableArrayElements="True" />
+          <Variable Name="actual_state" />
+        </Variable>
+        <Variable Name="mv_service">
+          <Variable Name="enable_param" />
+        </Variable>
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

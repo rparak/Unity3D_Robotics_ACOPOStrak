@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="HomePageContent_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[0].position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[0].position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericOutput2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[2].position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericOutput4" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[1].position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[2].position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[1].position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericOutput3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[5].position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph6" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[3].position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph4" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[4].position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph5" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[5].position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericOutput7" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[4].position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericOutput6" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[3].position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericOutput5" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[2].velocity" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph9" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[4].velocity" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericOutput12" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[1].velocity" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph8" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[3].velocity" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericOutput11" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[5].velocity" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph12" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[4].velocity" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph11" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[3].velocity" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph10" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[2].velocity" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericOutput10" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[1].velocity" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericOutput9" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[5].velocity" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericOutput13" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[0].velocity" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph7" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.data_collection[0].velocity" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericOutput8" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:dt_service.camera[0]" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="MomentaryPushButton5" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.status.is_homed" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="ImageList9" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.status.power_on" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="ImageList8" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.status.active" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="ImageList7" attribute="selectedIndex" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.control.reset_evn" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="MomentaryPushButton10" attribute="value" />
+		</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.control.power" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="ToggleSwitch1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:dt_service.camera[4]" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="MomentaryPushButton9" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:dt_service.camera[3]" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="MomentaryPushButton8" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:dt_service.camera[2]" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="MomentaryPushButton7" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:dt_service.camera[1]" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="MomentaryPushButton6" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.shuttle.initial_sector" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="TextPicker4" attribute="selectedIndex" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.control.default_shuttle_parameters" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="MomentaryPushButton12" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.control.shuttle_start" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="MomentaryPushButton4" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.control.shuttle_stop" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="MomentaryPushButton11" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.shuttle.shuttle_offset" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericInput1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.shuttle.num_of_shuttles_mv" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="DropDownBox11" attribute="selectedIndex" />
+</Binding>
+		
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:mv_service.enable_param" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="TextPicker4" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:mv_service.enable_param" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="DropDownBox11" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:mv_service.enable_param" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericInput1" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.control.animation_mode" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="DropDownBox10" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:mv_service.enable_param" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericInput2" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::tCTRL_m:gTrakAsm.shuttle.shuttle_velocity" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericInput2" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>
