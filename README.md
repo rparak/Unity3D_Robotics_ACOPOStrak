@@ -1,7 +1,5 @@
 # B&R Automation ACOPOStrak transport system - Unity3D Industrial Robotics
 
-# Control of the ABB robot through B&R Automation PLC - ABB's PC Software Development Kit (PC SDK)
-
 ## Requirements:
 
 **Software:**
