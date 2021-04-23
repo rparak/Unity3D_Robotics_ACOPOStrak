@@ -4,7 +4,7 @@
 
 **Software:**
 ```bash
-B&R Automation Studio, Unity3D 2020.1.8f1, Visual Studio 2017/2019
+B&R Automation Studio, Unity3D 2020.3.3f1, Visual Studio 2017/2019
 ```
 
 **Supported on the following operating systems:**
