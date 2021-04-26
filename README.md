@@ -34,6 +34,14 @@ The main idea of the application is to demonstrate the control of an amazing mac
 
 The Unity3d digital-twin application is used to visualize the scene and randomly change the colors of objects. The application also uses a package (Human-Machine interface - mappView) for data visualization. This data can be viewed locally on the PC panel or remotely on any device using a standard web browser (data management in mappView is completely based on OPC UA).
 
+**MappView (HMI):**
+```bash
+Simulation Address
+PLC_ADDRESS = localhost or 127.0.0.1
+
+http://PLC_ADDRESS:81/index.html?visuId=acp_trak_dt
+```
+
 Main functions of the ACOPOStrak Digital-Twin model:
 - Camera Control
 - Connect/Disconnect -> Real HW or Simulation (OPC UA Communication - tested for simulation model only)
@@ -71,6 +79,8 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 ```
 
 ## Application:
+
+## HMI (Human-Machine Interface) - MappView:
 
 ## Result:
 
