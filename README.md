@@ -56,6 +56,10 @@ The application can be installed on a mobile phone, tablet or computer, but for 
 
 The project was realized at Institute of Automation and Computer Science, Brno University of Technology, Faculty of Mechanical Engineering (NETME Centre - Cybernetics and Robotics Division).
 
+<p align="center">
+<img src="https://github.com/rparak/Unity3D_Robotics_ACOPOStrak/blob/main/images/dt_2.PNG" width="800" height="500">
+</p>
+
 ## Project Hierarchy:
 
 **Repositary [/Unity3D_Robotics_ACOPOStrak/]:**
@@ -77,6 +81,11 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 [ MappView Visualization                                            ] /Logical/mappView/
 [ ACOPOStrak Configuration (Sectors, Shuttles, etc.)                ] /Physical/Config1/X20CP3687X/mappMotion/TrakOval/
 ```
+
+<p align="center">
+<img src="https://github.com/rparak/Unity3D_Robotics_ACOPOStrak/blob/main/images/dt_1.PNG" width="800" height="500">
+</p>
+
 
 ## Application:
 
