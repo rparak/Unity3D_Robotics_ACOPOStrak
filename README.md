@@ -26,11 +26,13 @@ Visual Studio: https://visualstudio.microsoft.com/downloads/
 
 The project is focused on a simple demonstration of client / server communication via OPC UA, which is implemented in Unity3D (Server - B&R Automation PLC, Client - Unity3D). The project demonstrates the Digital-Twin of the ACOPOStrak with some additional functions. The application uses performance optimization using multi-threaded programming.
 
-The Unity3d digital-twin application is used to visualize the scene and randomly change the colors of objects. The application also uses a package (Human-Machine interface - mappView) for data visualization. This data can be viewed locally on the PC panel or remotely on any device using a standard web browser (data management in mappView is completely based on OPC UA).
-
 Example of a simple data processing application (OPC UA):
 
 [OPC UA B&R Automation - Data Processing](https://github.com/rparak/OPCUA_Simple)
+
+The main idea of the application is to demonstrate the control of an amazing machine that can be used for adaptive production. For visual inspection of the object, we use a B&R 2D camera/sensor with additional light and the entire control program (shuttle control, alarm handling, and others) is programmed on the PLC (OPC UA Server).
+
+The Unity3d digital-twin application is used to visualize the scene and randomly change the colors of objects. The application also uses a package (Human-Machine interface - mappView) for data visualization. This data can be viewed locally on the PC panel or remotely on any device using a standard web browser (data management in mappView is completely based on OPC UA).
 
 Main functions of the ACOPOStrak Digital-Twin model:
 - Camera Control
@@ -38,6 +40,9 @@ Main functions of the ACOPOStrak Digital-Twin model:
 - Read Data (Position of the Shuttles, Camera position, etc.)
 - Detection of the objects, change the color of objects, etc.
 - NVIDIA PhysX, etc.
+
+Note:
+Another case of controlling a digital-twin application is the use of a simulation tool designed by B&R Automation (Scene Viewer).
 
 The application can be installed on a mobile phone, tablet or computer, but for communication with the machine it is necessary to be in the same network.
 
