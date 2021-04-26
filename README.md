@@ -22,8 +22,6 @@ Visual Studio: https://visualstudio.microsoft.com/downloads/
 
 ## Project Description:
 
-The ACOPOStrak is a simulation model, so far there is no real identical machine.
-
 Example of a simple data processing application (OPC UA):
 
 [OPC UA B&R Automation - Data Processing](https://github.com/rparak/OPCUA_Simple)
