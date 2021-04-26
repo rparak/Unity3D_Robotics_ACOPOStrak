@@ -18,11 +18,15 @@ Unity HDRI Pack: https://assetstore.unity.com/packages/2d/textures-materials/sky
 
 B&R Automation: https://www.br-automation.com/en/downloads/#categories=Software-1344987434933
 
+SceneViewer B&R: https://www.br-automation.com/en/downloads/software/simulation/br-scene-viewer/
+
 Visual Studio: https://visualstudio.microsoft.com/downloads/
 
 ## Project Description:
 
 The project is focused on a simple demonstration of client / server communication via OPC UA, which is implemented in Unity3D (Server - B&R Automation PLC, Client - Unity3D). The project demonstrates the Digital-Twin of the ACOPOStrak with some additional functions. The application uses performance optimization using multi-threaded programming.
+
+The Unity3d digital-twin application is used to visualize the scene and randomly change the colors of objects. The application also uses a package (Human-Machine interface - mappView) for data visualization. This data can be viewed locally on the PC panel or remotely on any device using a standard web browser (data management in mappView is completely based on OPC UA).
 
 Example of a simple data processing application (OPC UA):
 
