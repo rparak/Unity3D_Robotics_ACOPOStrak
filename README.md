@@ -30,7 +30,7 @@ Example of a simple data processing application (OPC UA):
 
 [OPC UA B&R Automation - Data Processing](https://github.com/rparak/OPCUA_Simple)
 
-The main idea of the application is to demonstrate the control of an amazing machine that can be used for adaptive production. For visual inspection of the object, we use a B&R 2D camera/sensor with additional light and the entire control program (shuttle speed and/or position control [1 - 6], alarm handling, and others) is programmed on the PLC (OPC UA Server).
+The main idea of the application is to demonstrate the control of an amazing machine that can be used for adaptive production. For visual inspection of the object, we use a B&R 2D camera/sensor with additional light and the entire control program (velocity and / or position control of shuttles (min 1 - max 6) around multiple sectors (A, B), alarm handling, and others) is programmed on the PLC (OPC UA Server).
 
 The Unity3d digital-twin application is used to visualize the scene and randomly change the colors of objects. The application also uses a package (Human-Machine interface - mappView) for data visualization. This data can be viewed locally on the PC panel or remotely on any device using a standard web browser (data management in mappView is completely based on OPC UA).
 
