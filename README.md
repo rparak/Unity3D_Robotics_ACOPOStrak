@@ -22,14 +22,43 @@ Visual Studio: https://visualstudio.microsoft.com/downloads/
 
 ## Project Description:
 
-Text ...
+The ACOPOStrak is a simulation model, so far there is no real identical machine.
+
+Example of a simple data processing application (OPC UA):
+
+[OPC UA B&R Automation - Data Processing](https://github.com/rparak/OPCUA_Simple)
+
+Main functions of the ACOPOStrak Digital-Twin model:
+- Camera Control
+- Connect/Disconnect -> Real HW or Simulation (OPC UA Communication - tested for simulation model only)
+- Read Data (Position of the Shuttles, Camera position, etc.)
+- Detection of the objects, change the color of objects, etc.
+- NVIDIA PhysX, etc.
+
+The application can be installed on a mobile phone, tablet or computer, but for communication with the machine it is necessary to be in the same network.
+
+The project was realized at Institute of Automation and Computer Science, Brno University of Technology, Faculty of Mechanical Engineering (NETME Centre - Cybernetics and Robotics Division).
 
 ## Project Hierarchy:
 
 **Repositary [/Unity3D_Robotics_ACOPOStrak/]:**
 
 ```bash
-[] /.../
+/ACOPOSTrak_OPCUA_Unity_App/ -> Unity3D Project
+[ Data Processing              ] /Assets/Script/ACOPOSTrak_Control/
+[ Object / Light Control, etc. ] /Assets/Script/Service/
+[ Individual objects (.blend)  ] /Assets/Object/Blender/
+[ Scene of the Application     ] /Assets/Scenes/
+
+/Scene_Viewer/Trak/ -> Scene Viewer Digital-Twin
+[ Main 3D Simulation Model ] /gAssembly_1_GuideSystem.scn
+[ Main 2D Simulation Model ] /gAssembly_1.scn
+
+/acoposTrak_simple_control/ -> Automatio Studio B&R Project
+[ Main Program (control of the main state machine)                  ] /Logical/Technology/tCTRL_m/Main.c
+[ Header File (auxiliary functions, declaration of variables, etc.) ] /Logical/Technology/tCTRL_m/Main.h
+[ MappView Visualization                                            ] /Logical/mappView/
+[ ACOPOStrak Configuration (Sectors, Shuttles, etc.)                ] /Physical/Config1/X20CP3687X/mappMotion/TrakOval/
 ```
 
 ## Application:
