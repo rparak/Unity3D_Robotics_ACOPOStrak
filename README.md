@@ -22,6 +22,8 @@ Visual Studio: https://visualstudio.microsoft.com/downloads/
 
 ## Project Description:
 
+The project is focused on a simple demonstration of client / server communication via OPC UA, which is implemented in Unity3D (Server - B&R Automation PLC, Client - Unity3D). The project demonstrates the Digital-Twin of the ACOPOStrak with some additional functions. The application uses performance optimization using multi-threaded programming.
+
 Example of a simple data processing application (OPC UA):
 
 [OPC UA B&R Automation - Data Processing](https://github.com/rparak/OPCUA_Simple)
