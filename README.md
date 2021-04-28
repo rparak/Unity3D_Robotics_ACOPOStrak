@@ -50,17 +50,17 @@ Another case of controlling a digital-twin application is the use of a simulatio
 
 The application can be installed on a mobile phone, tablet or computer, but for communication with the machine it is necessary to be in the same network.
 
-The project was realized at Institute of Automation and Computer Science, Brno University of Technology, Faculty of Mechanical Engineering (NETME Centre - Cybernetics and Robotics Division).
-
-<p align="center">
-<img src="https://github.com/rparak/Unity3D_Robotics_ACOPOStrak/blob/main/images/dt_2.PNG" width="800" height="500">
-</p>
-
 **Appendix:**
 
 Example of a simple data processing application (OPC UA):
 
 [OPC UA B&R Automation - Data Processing](https://github.com/rparak/OPCUA_Simple)
+
+The project was realized at Institute of Automation and Computer Science, Brno University of Technology, Faculty of Mechanical Engineering (NETME Centre - Cybernetics and Robotics Division).
+
+<p align="center">
+<img src="https://github.com/rparak/Unity3D_Robotics_ACOPOStrak/blob/main/images/dt_2.PNG" width="800" height="500">
+</p>
 
 ## Project Hierarchy:
 
