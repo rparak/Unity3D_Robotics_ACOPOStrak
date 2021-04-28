@@ -26,10 +26,6 @@ Visual Studio: https://visualstudio.microsoft.com/downloads/
 
 The project is focused on a simple demonstration of client / server communication via OPC UA, which is implemented in Unity3D (Server - B&R Automation PLC, Client - Unity3D). The project demonstrates the Digital-Twin of the ACOPOStrak with some additional functions. The application uses performance optimization using multi-threaded programming.
 
-Example of a simple data processing application (OPC UA):
-
-[OPC UA B&R Automation - Data Processing](https://github.com/rparak/OPCUA_Simple)
-
 The main idea of the application is to demonstrate the control of an amazing machine that can be used for adaptive production. For visual inspection of the object, we use a B&R 2D camera/sensor with additional light and the entire control program (velocity and / or position control of shuttles (min 1 - max 6) around multiple sectors (A, B), alarm handling, and others) is programmed on the PLC (OPC UA Server).
 
 The Unity3d digital-twin application is used to visualize the scene and randomly change the colors of objects. The application also uses a package (Human-Machine interface - mappView) for data visualization. This data can be viewed locally on the PC panel or remotely on any device using a standard web browser (data management in mappView is completely based on OPC UA).
@@ -59,6 +55,12 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 <p align="center">
 <img src="https://github.com/rparak/Unity3D_Robotics_ACOPOStrak/blob/main/images/dt_2.PNG" width="800" height="500">
 </p>
+
+**Appendix:**
+
+Example of a simple data processing application (OPC UA):
+
+[OPC UA B&R Automation - Data Processing](https://github.com/rparak/OPCUA_Simple)
 
 ## Project Hierarchy:
 
