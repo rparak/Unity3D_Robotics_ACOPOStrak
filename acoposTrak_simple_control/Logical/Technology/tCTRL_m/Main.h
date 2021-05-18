@@ -183,6 +183,18 @@ _LOCAL mappView_service mv_service;
 /// auxiliary counter (animation mode 2 - 3)
 _LOCAL USINT animation_aux_counter;
 
+/// Reset parameters, environment, etc.
+void reset_shuttle_param(USINT num_of_shuttles, USINT initial_sector, REAL offset);
+void reset_env();
+/// Cyclic reading shuttle parameters (position, velocity, etc.)
+void read_shuttle_param(USINT num_of_shuttles, REAL offset);
+/// Axis motion control functions (parameters, mode, etc.)
+void set_animation_mode();
+void set_shuttle_move_param(USINT index, USINT sector, LREAL position, REAL velocity);
+/// Auxiliary functions for calculating the maximum/minimum position index of the shuttle.
+USINT min_number_index(USINT num_of_shuttles, LREAL machine_vision_position, USINT sector);
+USINT max_number_index(USINT num_of_shuttles, LREAL machine_vision_position, USINT sector);
+
 void reset_shuttle_param(USINT num_of_shuttles, USINT initial_sector, REAL offset){
 	/**
 	Description:
