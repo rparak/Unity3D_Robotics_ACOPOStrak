@@ -36,23 +36,6 @@
 #include "Main.h"
 
 /**
- * Declaration of auxiliary functions 
- * See the header file for more information -> 'Main.h'
- */
-
-/// Reset parameters, environment, etc.
-void reset_shuttle_param(USINT num_of_shuttles, USINT initial_sector, REAL offset);
-void reset_env();
-/// Cyclic reading shuttle parameters (position, velocity, etc.)
-void read_shuttle_param(USINT num_of_shuttles, REAL offset);
-/// Axis motion control functions (parameters, mode, etc.)
-void set_animation_mode();
-void set_shuttle_move_param(USINT index, USINT sector, LREAL position, REAL velocity);
-/// Auxiliary functions for calculating the maximum/minimum position index of the shuttle.
-USINT min_number_index(USINT num_of_shuttles, LREAL machine_vision_position, USINT sector);
-USINT max_number_index(USINT num_of_shuttles, LREAL machine_vision_position, USINT sector);
-
-/**
  * Program Intitialization
  */
 void _INIT ProgramInit(void)
@@ -81,8 +64,8 @@ void _INIT ProgramInit(void)
 /**
  * Program Cyclic 
  * 
- * Duration (Cycle Time): 2000 [µs] 
- * Tolerance            : 0    [µs]
+ * Duration (Cycle Time): 2000 [Âµs] 
+ * Tolerance            : 0    [Âµs]
  */
 void _CYCLIC ProgramCyclic(void)
 {
