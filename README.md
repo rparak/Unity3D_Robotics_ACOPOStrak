@@ -4,13 +4,15 @@
 
 **Software:**
 ```bash
-B&R Automation Studio, Unity3D 2020.3.3f1, Visual Studio 2017/2019
+B&R Automation Studio, Blender, Unity3D 2020.3.3f1, Visual Studio 2017/2019
 ```
 
 **Supported on the following operating systems:**
 ```bash
 Universal Windows Platform, Android
 ```
+
+Blender: https://www.blender.org/download/
 
 Unity3D: https://unity3d.com/get-unity/download/archive
 
