@@ -21,18 +21,6 @@ Universal Windows Platform, Android
 | SceneViewer B&R       | https://www.br-automation.com/en/downloads/software/simulation/br-scene-viewer/       |
 | Visual Studio         | https://visualstudio.microsoft.com/downloads/                                         |
 
-Blender: https://www.blender.org/download/
-
-Unity3D: https://unity3d.com/get-unity/download/archive
-
-Unity HDRI Pack: https://assetstore.unity.com/packages/2d/textures-materials/sky/unity-hdri-pack-72511
-
-B&R Automation: https://www.br-automation.com/en/downloads/#categories=Software-1344987434933
-
-SceneViewer B&R: https://www.br-automation.com/en/downloads/software/simulation/br-scene-viewer/
-
-Visual Studio: https://visualstudio.microsoft.com/downloads/
-
 ## Project Description:
 
 The project is focused on a simple demonstration of client / server communication via OPC UA, which is implemented in Unity3D (Server - B&R Automation PLC, Client - Unity3D). The project demonstrates the Digital-Twin of the ACOPOStrak with some additional functions. The application uses performance optimization using multi-threaded programming.
