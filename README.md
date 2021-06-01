@@ -12,6 +12,15 @@ B&R Automation Studio, Blender, Unity3D 2020.3.3f1, Visual Studio 2017/2019
 Universal Windows Platform, Android
 ```
 
+| Software/Package      | Link                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------- |
+| Blender               | https://www.blender.org/download/                                                     |
+| Unity3D               | https://unity3d.com/get-unity/download/archive                                        |
+| Unity HDRI Pack       | https://assetstore.unity.com/packages/2d/textures-materials/sky/unity-hdri-pack-72511 |
+| B&R Automation        | https://www.br-automation.com/en/downloads/#categories=Software-1344987434933         |
+| SceneViewer B&R       | https://www.br-automation.com/en/downloads/software/simulation/br-scene-viewer/       |
+| Visual Studio         | https://visualstudio.microsoft.com/downloads/                                         |
+
 Blender: https://www.blender.org/download/
 
 Unity3D: https://unity3d.com/get-unity/download/archive
