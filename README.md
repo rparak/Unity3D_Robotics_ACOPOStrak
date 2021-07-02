@@ -118,7 +118,7 @@ Example of a simple data processing application (OPC UA):
 
 ## Result:
 
-Youtube: ...
+Youtube: https://www.youtube.com/watch?v=Dnw5PxeZf7k
 
 ## Contact Info:
 Roman.Parak@outlook.com
