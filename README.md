@@ -90,13 +90,13 @@ Example of a simple data processing application (OPC UA):
 ## Application:
 
 <p align="center">
-<img src="https://github.com/rparak/Unity3D_Robotics_ACOPOStrak/blob/main/images/dt_3.png" width="800" height="500">
-<img src="https://github.com/rparak/Unity3D_Robotics_ACOPOStrak/blob/main/images/dt_4.png" width="800" height="500">
-<img src="https://github.com/rparak/Unity3D_Robotics_ACOPOStrak/blob/main/images/dt_5.png" width="800" height="500">
-<img src="https://github.com/rparak/Unity3D_Robotics_ACOPOStrak/blob/main/images/dt_6.png" width="800" height="500">
-<img src="https://github.com/rparak/Unity3D_Robotics_ACOPOStrak/blob/main/images/dt_7.png" width="800" height="500">
-<img src="https://github.com/rparak/Unity3D_Robotics_ACOPOStrak/blob/main/images/dt_8.png" width="800" height="500">
-<img src="https://github.com/rparak/Unity3D_Robotics_ACOPOStrak/blob/main/images/dt_9.png" width="800" height="500">
+<img src="https://github.com/rparak/Unity3D_Robotics_ACOPOStrak/blob/main/images/dt_3.png" width="800" height="450">
+<img src="https://github.com/rparak/Unity3D_Robotics_ACOPOStrak/blob/main/images/dt_4.png" width="800" height="450">
+<img src="https://github.com/rparak/Unity3D_Robotics_ACOPOStrak/blob/main/images/dt_5.png" width="800" height="450">
+<img src="https://github.com/rparak/Unity3D_Robotics_ACOPOStrak/blob/main/images/dt_6.png" width="800" height="450">
+<img src="https://github.com/rparak/Unity3D_Robotics_ACOPOStrak/blob/main/images/dt_7.png" width="800" height="450">
+<img src="https://github.com/rparak/Unity3D_Robotics_ACOPOStrak/blob/main/images/dt_8.png" width="800" height="450">
+<img src="https://github.com/rparak/Unity3D_Robotics_ACOPOStrak/blob/main/images/dt_9.png" width="800" height="450">
 </p>
 
 ## HMI (Human-Machine Interface) - MappView:
