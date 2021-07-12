@@ -398,7 +398,7 @@ void set_animation_mode(){
 	 */
 	
 	switch(gTrakAsm.control.animation_mode){
-		case ACPt_ANIM_MODE_1: /**< Animation Mode 1 - Velocity control (around the specified sector). */
+		case ACPt_ANIM_MODE_1: ///< Animation Mode 1 - Velocity control (around the specified sector). 
 			{
 				gTrakAsm.control.animation_mode_before = ACPt_ANIM_MODE_1;
 				/// Type (0) -> Move Velocity
@@ -410,7 +410,7 @@ void set_animation_mode(){
 			}
 			break;
 		
-		case ACPt_ANIM_MODE_2: /**< Animation Mode 2 - Position control (around the Sector A, stop under the machine vision camera). */
+		case ACPt_ANIM_MODE_2: ///< Animation Mode 2 - Position control (around the Sector A, stop under the machine vision camera). 
 			{
 				if(gTrakAsm.control.animation_mode != gTrakAsm.control.animation_mode_before){
 					animation_aux_counter = 0;
@@ -446,7 +446,7 @@ void set_animation_mode(){
 			}
 			break;
 		
-		case ACPt_ANIM_MODE_3: /**< Animation Mode 3 - Position control (around the Sector B, stop under the machine vision camera). */
+		case ACPt_ANIM_MODE_3: ///< Animation Mode 3 - Position control (around the Sector B, stop under the machine vision camera). 
 			{
 				if(gTrakAsm.control.animation_mode != gTrakAsm.control.animation_mode_before){
 					animation_aux_counter = 0;
@@ -482,7 +482,7 @@ void set_animation_mode(){
 			}
 			break;
 		
-		case ACPt_ANIM_MODE_4: /**< Animation Mode 4 - Velocity control (around both sectors). */
+		case ACPt_ANIM_MODE_4: ///< Animation Mode 4 - Velocity control (around both sectors). 
 			{
 				gTrakAsm.control.animation_mode_before = ACPt_ANIM_MODE_4;
 				/// Type (0) -> Move Velocity
