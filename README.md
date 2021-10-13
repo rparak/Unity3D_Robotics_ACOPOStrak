@@ -1,4 +1,4 @@
-# B&R Automation ACOPOStrak transport system - Unity3D Industrial Robotics
+# Unity3D Industrial Robotics: B&R Automation ACOPOStrak transport system
 
 ## Requirements:
 
