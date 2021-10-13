@@ -23,7 +23,7 @@ Universal Windows Platform, Android
 
 ## Project Description:
 
-The project is focused on a simple demonstration of client / server communication via OPC UA, which is implemented in Unity3D (Server - B&R Automation PLC, Client - Unity3D). The project demonstrates the Digital-Twin of the ACOPOStrak with some additional functions. The application uses performance optimization using multi-threaded programming.
+The project is focused on a simple demonstration of client-server communication via OPC UA, which is implemented in Unity3D (Server - B&R Automation PLC, Client - Unity3D). The project demonstrates the Digital-Twin of the ACOPOStrak with some additional functions. The application uses performance optimization using multi-threaded programming.
 
 The main idea of the application is to demonstrate the control of an amazing machine that can be used for adaptive production. For visual inspection of the object, we use a B&R 2D camera/sensor with additional light and the entire control program (velocity and / or position control of shuttles (min 1 - max 6) around multiple sectors (A, B), alarm handling, and others) is programmed on the PLC (OPC UA Server).
 
