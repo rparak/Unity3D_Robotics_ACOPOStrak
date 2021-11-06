@@ -49,7 +49,7 @@ Another case of controlling a digital-twin application is the use of a simulatio
 
 The application can be installed on a mobile phone, tablet or computer, but for communication with the machine it is necessary to be in the same network.
 
-The project was realized at Institute of Automation and Computer Science, Brno University of Technology, Faculty of Mechanical Engineering (NETME Centre - Cybernetics and Robotics Division).
+The project was realized at the Institute of Automation and Computer Science, Brno University of Technology, Faculty of Mechanical Engineering (NETME Centre - Cybernetics and Robotics Division).
 
 **Appendix:**
 
